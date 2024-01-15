@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
+.carousel-inner img {
+    width: 60%;
+    height: 10%;
+    margin-left: 220px;
+}
+.carousel_img{
+    width: 800;
+    height: 80px;
+}
+.carousel-caption{
+    color: black;
+}
+body{
+    font-family:'Montserrat', sans-serif;
+}
