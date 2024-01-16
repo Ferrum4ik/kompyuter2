@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="container"> 
+        <div class="form-container sign-in-container">
+            <form action="#" onsubmit="onCreateAccount(event)">
+                <h1>Sign up</h1>
+                <span>Create your account</span>
+                <div class="custom_input">
+                <input placeholder="Name" class="class1" id="name" class="name" 
+                required
+                minlength="2"
+                maxlength="30">
+            </div>
+            <div class="custom_input2">
+                <input type="password" placeholder="Password" id="class1" class="class1" 
+                required
+                minlength="8"
+                maxlength="30">
+            </div>
+            <div class="custom_input3">
+                <input placeholder="Email" class="class1" id="name" class="name" type="email" 
+                required
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}">
+            </div>
+            <div class="custom_input6">
+                <input placeholder="Username" class="class1" id="name" class="name" type="text" 
+                required>
+            </div>
+            <div class="custom_input5">
+                <input placeholder="Phone" class="class1" id="name" class="name" type="" 
+                required
+                pattern="((\(\d{3}\)  ?)|(\d{3}-))?\d{3}-\d{4}">
+            </div>
+                <div class="class2">
+            </div>
+                <button type="submit">Sign up</button>
+                <a href="log.html" id="createacoount">I already have account</a>
+                <a href="index.html" id="createacoount">Quit to main page</a>
+            </form>
+        </div>
+
+    </div>
+</body>
+</html>
